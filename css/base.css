@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header {
+    height: 20vh;
+    text-align: center;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+h1 {
+    color:  #0087de;
+}
+
+main {
+    background-color: #0087de;
+    height: 80vh;
+    margin: 0 10px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+label {
+    display: block;
+}
+
+input:focus {
+    outline-color: #fff;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}
+
