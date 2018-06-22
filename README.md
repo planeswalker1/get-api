@@ -1,6 +1,6 @@
 # _get-api_
 
-#### _Calling an api using a get request, 06.20.2018_
+#### _Calling an api using a get request, 06.21.2018_
 
 #### By _**planeswalker1**_
 
